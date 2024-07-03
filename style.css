@@ -8,7 +8,7 @@ html {
     mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
     margin: 0 auto;
     padding: 60px 0;
-    margin-top: -5%;
+    margin-top: -6%;
   }
   
   nav ul {
@@ -64,8 +64,8 @@ html {
     margin-right: 41%;
   }
   .image-container {
-    width: 150px; /* Adjust the width and height to fit your image size */
-    height: 150px;
+    width: 300px; /* Adjust the width and height to fit your image size */
+    height: 300px;
     overflow: hidden; /* Ensures the image doesn't overflow the container */
     border-radius: 50%; /* Makes the container and image circular */
     border: 2px solid #ccc; /* Optional: Adds a border around the circle */
@@ -76,11 +76,13 @@ html {
     height: auto; /* Maintains aspect ratio */
     display: block; /* Removes any extra space reserved for descenders */
   }
-
+  .sourcecontainer{
+    display: none;
+  }
 .image-container{
     float: right;
-    margin-right: 10%;
-    margin-top: -29%;
+    margin-right: 5.5%;
+    margin-top: -34%;
 }
 .aboutheader{
     color: #FFDF8E;
@@ -145,3 +147,213 @@ html {
   .aboutcontainer{
     display: none;
   }
+  .header4{
+    font-size: 40px;
+    text-align: center;
+    color: #FFDF8E;
+    margin-top: -5%;
+  }
+
+  .contactcontainer{
+    display: none;
+  }
+  .skillscontainer{
+    display: none;
+  }
+  form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.coheader{
+  color: #FFDF8E;
+  margin-left: 43.90%;
+}
+.contactcontainer{
+  margin-top: -5%;
+}
+.imagecontainer{
+  justify-content: space-evenly;
+  display: flex;
+}
+.imagecontainer > img{
+  border: solid black 4px;
+}
+
+.imagehead{
+  color: white;
+  float: right;
+  font-size: 35px;
+  margin-top: -30%;
+  margin-right: 45.20%;
+}
+
+.imageheader1{
+  color: #FFDF8E;
+  float: right;
+  margin-top: -28%;
+  font-size: 12px;
+  margin-right: 77%;
+}
+
+.imageheader2{
+  color: #FFDF8E;
+  float: right;
+  margin-top: -28%;
+  font-size: 12px;
+  margin-right: 46%;
+}
+
+.imageheader3{
+  color: #FFDF8E;
+  float: right;
+  margin-top: -28%;
+  font-size: 12px;
+  margin-right: 15%;
+}
+
+.imagep1{
+  color: white;
+  font-size: 20px;
+  margin-left: 7%;
+  margin-right: 67%;
+}
+
+.imagep2{
+  color: white;
+  font-size: 18px;
+  margin-top: -5.25%;
+  margin-left: 38%;
+  margin-right: 36%;
+}
+
+.imagep3{
+  color: white;
+  font-size: 18px;
+  margin-top: -9.5%;
+  margin-left: 69%;
+  margin-right: 5%;
+}
+
+.projectcontainer{
+  display: none;
+}
+
+.htmlimg{
+  margin-top: -16.55%;
+  margin-left: 17%;
+}
+.pythonimg{
+  margin-top: -33.14%;
+  margin-left: 17%;
+}
+
+.pythonimg > img{
+  border: black solid 3px;
+}
+.htmlimg > img{
+  border: black solid 3px;
+}
+.cssimg > img{
+  border: black solid 3px;
+}
+
+.jsimg >img{
+  border: black solid 3px;
+}
+.pgheader{
+  color: #FFDF8E;
+  float: right;
+  margin-top: -21%;
+  margin-right: 71.5%;
+  font-size: 14px;
+}
+
+.skheader{
+  color: white;
+  text-align: center;
+  margin-top: -24%;
+  font-size: 24px;
+}
+
+.sfheader{
+  color: #FFDF8E;
+  float: right;
+  margin-right: 20%;
+  margin-top: -15%;
+}
+
+.communication{
+  float: right;
+  color: white;
+  margin-top: -10%;
+  margin-right: 32%;
+  font-size: 14px;
+}
+
+.timemanagement{
+  color: white;
+  float: right;
+  margin-top: -9.9%;
+  font-size: 14px;
+  margin-right: 2%;
+}
+
+.timeimage{
+  float: right;
+  margin-right: 3%;
+  margin-top: -4%;
+}
+
+.communicationimage{
+  float: right;
+  margin-right: 13%;
+  margin-top: -4%;
+}
+
+.sourceheader{
+  color: #FFDF8E;
+  text-align: center;
+  margin-top: -6%;
+}
+.hr9{
+  margin-left: 45%;
+  margin-right: 45%;
+  margin-top: -1.5%;
+}
+
+.mozilla{
+  text-align: center;
+  color: white;
+}
+
+.contrast{
+  text-align: center;
+  color: white;
+}
